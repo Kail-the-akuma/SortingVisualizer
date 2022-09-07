@@ -6,33 +6,8 @@
     border-radius: 1rem;
     height: 3rem;
     padding: 0.2rem 1rem ;
-
 }
 
-.algo-Dropdown
-{
-    width: max-content;
-    display: inline-block;
-    color: var(--color-primary);
-    background-color: rgba(0,0,0,0.2);
-    padding : 0.5rem 0.6rem;
-    border-radius: 0.4rem;
-    margin: 0.40rem;
-    border: 1px solid var(--color-primary);
-    transition:var(--transition);
-}
-
-
-.algo-Dropdown:hover
-{
-    color: var(--color-white);
-}
-.algo-Dropdown-option
-{
-
-    color: var(--color-primary);
-    transition:var(--transition);
-}
 
 
 /*=================================BARS==============================*/
@@ -40,7 +15,7 @@
 .array-container
 {
     position: absolute;
-    left:  5%;
+    left: 10%;
     top: 7rem;
     /* top: 100px; */
 }
@@ -49,7 +24,8 @@
 {
     width: 10px;
     
-    background-color: var(--color-primary);
+    border-radius: 1rem;
+    background-color: var(black);
     display: inline-block;
     max-block-size: 450px;
     margin: 0 3px;

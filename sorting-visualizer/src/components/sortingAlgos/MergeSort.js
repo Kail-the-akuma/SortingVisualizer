@@ -23,14 +23,8 @@ export function getMergeSortAnimations(array)
     merge(mainArray, startIndex, middleIdx, endIndex, auxArray, animations);
   }
   
-  function merge(
-    mainArray,
-    startIdx,
-    middleIdx,
-    endIdx,
-    auxiliaryArray,
-    animations,
-  ) {
+  function merge(mainArray, startIdx, middleIdx, endIdx, auxiliaryArray, animations,) 
+  {
     let k = startIdx;
     let i = startIdx;
     let j = middleIdx + 1;
